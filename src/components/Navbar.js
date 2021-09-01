@@ -41,15 +41,15 @@ export const Navbar = () => {
                  <input type="text" placeholder="Search" className="search"/> 
 
                 <li><a href="" target = "_blank" >                           {/* notification*/}
-                <BsBellFill/>  
+                <BsBellFill size={27}/>  
                 </a></li> 
 
                 <li><a href="" target="_blank" >                             {/* messages/chat */}
-                <BsFillChatDotsFill/>  
+                <BsFillChatDotsFill size={27}/>  
                 </a></li>  
 
                 <li><a href="" target="_blank" >                             {/* user profile */}
-                <BsPeopleCircle/>  
+                <BsPeopleCircle size={27}/>  
                 </a></li> 
 
                </ul>
